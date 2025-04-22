@@ -32,7 +32,7 @@ Origem para preenchimento automatizado da `Fila_Envio`.
 ## 🛠️ Como usar
 
 1. Abra o Google Sheets e vá em **Extensões > Apps Script**
-2. Cole o conteúdo do arquivo `eac_comunicacao_script.gs`
+2. Cole o conteúdo do arquivo `modelo_comunicacao_script.gs`
 3. Configure a ID da planilha no código (caso necessário)
 4. Use a função `enviarEmailsFilaEnvioLimitado()` para rodar o envio
 5. Use o menu personalizado para marcar registros como "Pendente"
