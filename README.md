@@ -1,6 +1,6 @@
-# 📬 Sistema de Envio de Comunicados – EAC Porciúncula de Sant’Ana
+# 📬 Sistema de Envio de Comunicados
 
-Este projeto é um script em Google Apps Script para automação de envio de e-mails com comunicados do EAC (Encontro de Adolescentes com Cristo) da Paróquia Porciúncula de Sant’Ana.
+Este projeto é um script em Google Apps Script para automação de envio de e-mails com comunicados .
 
 ## ✨ Funcionalidades
 
