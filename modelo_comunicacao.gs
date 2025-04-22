@@ -6,11 +6,11 @@
 function enviarEmailsFilaEnvioLimitado() {
   const LIMITE_DIARIO = 100;
   const MODO_SIMULACAO = true;
-  const EMAIL_TESTE = "cmourasiga@gmail.com";
+  const EMAIL_TESTE = "xxxxx@gmail.com";
 
   let enviadosHoje = 0;
 
-  const planilha = SpreadsheetApp.openById("1BXitZrMOxFasCJAqkxVVdkYPOLLUDEMQ2bIx5mrP8Y8");
+  const planilha = SpreadsheetApp.openById("id da planilha com os contatos");
   const abaFila = planilha.getSheetByName("Fila_Envio");
   const abaComunicados = planilha.getSheetByName("Comunicados");
 
@@ -53,10 +53,10 @@ function enviarEmailsFilaEnvioLimitado() {
           <p style="margin: 0;">Este e-mail foi enviado automaticamente pelo sistema de comunicação do EAC.</p>
           <p style="margin: 5px 0;">Fique atento aos próximos comunicados!</p>
           <div style="margin-top: 10px;">
-            <a href="https://www.instagram.com/eacporciunculadesantana/" target="_blank" style="margin-right: 10px;">
+            <a href="link do isntagram" target="_blank" style="margin-right: 10px;">
               <img src="https://cdn-icons-png.flaticon.com/24/1384/1384063.png" alt="Instagram" width="20" height="20" style="vertical-align: middle;">
             </a>
-            <a href="https://www.facebook.com/profile.php?id=61575049065936" target="_blank">
+            <a href="link do facebook" target="_blank">
               <img src="https://cdn-icons-png.flaticon.com/24/1384/1384053.png" alt="Facebook" width="20" height="20" style="vertical-align: middle;">
             </a>
           </div>
